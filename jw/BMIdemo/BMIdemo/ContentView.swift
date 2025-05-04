@@ -18,6 +18,7 @@ struct ContentView: View {
                 Color.gray.edgesIgnoringSafeArea(.all)
                 VStack (spacing: 20) {
                     Text("키와 몸무게를 입력해주세요")
+                        .padding(.top, 60)
                     
                     HStack {
                         VStack(alignment: .leading) {
@@ -41,7 +42,7 @@ struct ContentView: View {
                         }
                         .padding(.leading)
                     }
-                    .padding()
+                    .padding(.top, 5)
                     
                     Spacer(minLength: 10)
                     
