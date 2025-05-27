@@ -25,17 +25,19 @@ class ViewController: UIViewController {
         }
 
         let bmi = kg / pow(cm / 100, 2)
-        let bmiString = String(format: "%.2f", bmi)
 
-        let vc = storyboard?.instantiateViewController(withIdentifier: "ResultView") as! ResultView
-        vc.bmiValue = bmiString
-        navigationController?.pushViewController(vc, animated: true)
+        let storyboard = UIStoryboard(name: "Main", bundle: nil)
+        if let resultVC = storyboard.instantiateViewController(identifier: "ResultView") as? ResultView {
+            resultVC.bmiValue = bmi
+            present(resultVC, animated: true, completion: nil)
+              }
     }
 
     
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
         // Do any additional setup after loading the view.
     }
 

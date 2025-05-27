@@ -48,6 +48,7 @@
                                 <state key="normal" title="Button"/>
                                 <buttonConfiguration key="configuration" style="filled" title="계산하기"/>
                                 <connections>
+                                    <action selector="calculateBmi:" destination="BYZ-38-t0r" eventType="touchUpInside" id="zYm-qu-YNg"/>
                                     <segue destination="egf-gh-e5j" kind="presentation" id="9Ku-Zc-4Kg"/>
                                 </connections>
                             </button>
@@ -71,7 +72,7 @@
         <!--Result View-->
         <scene sceneID="9vV-Mk-uRh">
             <objects>
-                <viewController id="gJ8-Vo-ou8" customClass="ResultView" customModule="Bmiuikit" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultView" useStoryboardIdentifierAsRestorationIdentifier="YES" id="gJ8-Vo-ou8" customClass="ResultView" customModule="Bmiuikit" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="w6L-nU-mYg">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="842"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
@@ -112,7 +113,7 @@
                         <outlet property="bmiResultLabel" destination="W77-dK-7cT" id="IbX-id-c55"/>
                         <outlet property="doDietLabel" destination="sIu-rg-erx" id="kJv-lh-8Bb"/>
                         <outlet property="goBack" destination="ddv-52-SYF" id="R7h-Zf-mOS"/>
-                        <outlet property="resultPrint" destination="Wnt-4N-PAu" id="8Db-Yl-Lvy"/>
+                        <outlet property="resultPrint" destination="Wnt-4N-PAu" id="VPm-Kw-GXM"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="v7y-50-FBW" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>

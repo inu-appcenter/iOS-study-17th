@@ -15,10 +15,12 @@ class ResultView: UIViewController {
     @IBOutlet weak var doDietLabel: UILabel!
     @IBOutlet weak var bmiResultLabel: UILabel!
     
+    resultPrint.text = bmiValue
+    
     var bmiValue: String?
+    //bmiLabel.text = String(format: "%.2f", bmiValue)
     override func viewDidLoad() {
         super.viewDidLoad()
-        resultPrint.text = bmiValue
         // Do any additional setup after loading the view.
     }
 
