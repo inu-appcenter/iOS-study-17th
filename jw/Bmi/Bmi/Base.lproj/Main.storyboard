@@ -23,7 +23,7 @@
                                 <buttonConfiguration key="configuration" style="filled" title="Button"/>
                                 <connections>
                                     <action selector="BtResultAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="JC5-JK-O7S"/>
-                                    <segue destination="3qy-ez-xe3" kind="show" id="TQW-HP-6ZZ"/>
+                                    <segue destination="3qy-ez-xe3" kind="show" identifier="ResultViewController" id="TQW-HP-6ZZ"/>
                                 </connections>
                             </button>
                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="kYz-Mz-Ggx">
@@ -80,7 +80,7 @@
         <!--Result View Controller-->
         <scene sceneID="Dra-hX-Iex">
             <objects>
-                <viewController storyboardIdentifier="ResultViewController" id="3qy-ez-xe3" customClass="ResultViewController" customModule="Bmi" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController storyboardIdentifier="ResultViewController" useStoryboardIdentifierAsRestorationIdentifier="YES" id="3qy-ez-xe3" customClass="ResultViewController" customModule="Bmi" customModuleProvider="target" sceneMemberID="viewController">
                     <view key="view" contentMode="scaleToFill" id="iOW-ga-B8L">
                         <rect key="frame" x="0.0" y="0.0" width="393" height="852"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>

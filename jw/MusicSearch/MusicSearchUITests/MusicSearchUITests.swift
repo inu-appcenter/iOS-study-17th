@@ -1,13 +1,13 @@
 //
-//  MusicUiUITests.swift
-//  MusicUiUITests
+//  MusicSearchUITests.swift
+//  MusicSearchUITests
 //
-//  Created by 제욱 on 5/27/25.
+//  Created by 제욱 on 6/2/25.
 //
 
 import XCTest
 
-final class MusicUiUITests: XCTestCase {
+final class MusicSearchUITests: XCTestCase {
 
     override func setUpWithError() throws {
         // Put setup code here. This method is called before the invocation of each test method in the class.

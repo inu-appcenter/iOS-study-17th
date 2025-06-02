@@ -36,9 +36,9 @@ class ViewController: UIViewController, UITableViewDelegate, UITableViewDataSour
 
     func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let data = movie[indexPath.row]
-        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieCell
+        let cell = tableView.dequeueReusableCell(withIdentifier: "MovieCell", for: indexPath) as! MovieTableViewCell
         cell.titleLabel.text = data.title
-        cell.descriptionLabel.text = data.info
+        cell.infoLabel.text = data.info
         cell.posterImageView.image = UIImage(named: data.imageName)
         return cell
     }

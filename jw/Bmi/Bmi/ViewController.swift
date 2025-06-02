@@ -25,7 +25,7 @@ class ViewController: UIViewController {
             print("입력값 오류")
             return
         }
-        performSegue(withIdentifier: "showResult", sender: bmi)
+        performSegue(withIdentifier: "ResultViewController", sender: bmi)
     }
     
     func calculateBmi() -> String? { //BMI 계산 함수, ? 옵셔널 nilvhgka
@@ -41,7 +41,7 @@ class ViewController: UIViewController {
         return String(format: "%.2f", bmi)
     }
     override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        if segue.identifier == "showResult",
+        if segue.identifier == "ResultViewController",
            let resultVC = segue.destination as? ResultViewController,
            let bmi = sender as? String {
             resultVC.bmiValue = bmi

@@ -1,13 +1,13 @@
 //
-//  MusicUiUITestsLaunchTests.swift
-//  MusicUiUITests
+//  MusicSearchUITestsLaunchTests.swift
+//  MusicSearchUITests
 //
-//  Created by 제욱 on 5/27/25.
+//  Created by 제욱 on 6/2/25.
 //
 
 import XCTest
 
-final class MusicUiUITestsLaunchTests: XCTestCase {
+final class MusicSearchUITestsLaunchTests: XCTestCase {
 
     override class var runsForEachTargetApplicationUIConfiguration: Bool {
         true

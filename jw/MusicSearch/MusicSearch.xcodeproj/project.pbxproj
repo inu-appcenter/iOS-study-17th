@@ -7,75 +7,62 @@
 	objects = {
 
 /* Begin PBXContainerItemProxy section */
-		CB8E4DC82DE58C2F0025EA1F /* PBXContainerItemProxy */ = {
+		CBF3B85C2DEDEB0900378D99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CB8E4DA92DE58C2E0025EA1F /* Project object */;
+			containerPortal = CBF3B8432DEDEB0800378D99 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB8E4DB02DE58C2E0025EA1F;
-			remoteInfo = MusicUi;
+			remoteGlobalIDString = CBF3B84A2DEDEB0800378D99;
+			remoteInfo = MusicSearch;
 		};
-		CB8E4DD22DE58C2F0025EA1F /* PBXContainerItemProxy */ = {
+		CBF3B8662DEDEB0900378D99 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = CB8E4DA92DE58C2E0025EA1F /* Project object */;
+			containerPortal = CBF3B8432DEDEB0800378D99 /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = CB8E4DB02DE58C2E0025EA1F;
-			remoteInfo = MusicUi;
+			remoteGlobalIDString = CBF3B84A2DEDEB0800378D99;
+			remoteInfo = MusicSearch;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		CB8E4DB12DE58C2E0025EA1F /* MusicUi.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicUi.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB8E4DC72DE58C2F0025EA1F /* MusicUiTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUiTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		CB8E4DD12DE58C2F0025EA1F /* MusicUiUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicUiUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF3B84B2DEDEB0800378D99 /* MusicSearch.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MusicSearch.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF3B85B2DEDEB0900378D99 /* MusicSearchTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSearchTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		CBF3B8652DEDEB0900378D99 /* MusicSearchUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MusicSearchUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
-/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
-		CB8E4DD92DE58C2F0025EA1F /* Exceptions for "MusicUi" folder in "MusicUi" target */ = {
-			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
-			membershipExceptions = (
-				Info.plist,
-			);
-			target = CB8E4DB02DE58C2E0025EA1F /* MusicUi */;
-		};
-/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
-
 /* Begin PBXFileSystemSynchronizedRootGroup section */
-		CB8E4DB32DE58C2E0025EA1F /* MusicUi */ = {
+		CBF3B84D2DEDEB0800378D99 /* MusicSearch */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			exceptions = (
-				CB8E4DD92DE58C2F0025EA1F /* Exceptions for "MusicUi" folder in "MusicUi" target */,
-			);
-			path = MusicUi;
+			path = MusicSearch;
 			sourceTree = "<group>";
 		};
-		CB8E4DCA2DE58C2F0025EA1F /* MusicUiTests */ = {
+		CBF3B85E2DEDEB0900378D99 /* MusicSearchTests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MusicUiTests;
+			path = MusicSearchTests;
 			sourceTree = "<group>";
 		};
-		CB8E4DD42DE58C2F0025EA1F /* MusicUiUITests */ = {
+		CBF3B8682DEDEB0900378D99 /* MusicSearchUITests */ = {
 			isa = PBXFileSystemSynchronizedRootGroup;
-			path = MusicUiUITests;
+			path = MusicSearchUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXFileSystemSynchronizedRootGroup section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		CB8E4DAE2DE58C2E0025EA1F /* Frameworks */ = {
+		CBF3B8482DEDEB0800378D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DC42DE58C2F0025EA1F /* Frameworks */ = {
+		CBF3B8582DEDEB0900378D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DCE2DE58C2F0025EA1F /* Frameworks */ = {
+		CBF3B8622DEDEB0900378D99 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -85,22 +72,22 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		CB8E4DA82DE58C2E0025EA1F = {
+		CBF3B8422DEDEB0800378D99 = {
 			isa = PBXGroup;
 			children = (
-				CB8E4DB32DE58C2E0025EA1F /* MusicUi */,
-				CB8E4DCA2DE58C2F0025EA1F /* MusicUiTests */,
-				CB8E4DD42DE58C2F0025EA1F /* MusicUiUITests */,
-				CB8E4DB22DE58C2E0025EA1F /* Products */,
+				CBF3B84D2DEDEB0800378D99 /* MusicSearch */,
+				CBF3B85E2DEDEB0900378D99 /* MusicSearchTests */,
+				CBF3B8682DEDEB0900378D99 /* MusicSearchUITests */,
+				CBF3B84C2DEDEB0800378D99 /* Products */,
 			);
 			sourceTree = "<group>";
 		};
-		CB8E4DB22DE58C2E0025EA1F /* Products */ = {
+		CBF3B84C2DEDEB0800378D99 /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				CB8E4DB12DE58C2E0025EA1F /* MusicUi.app */,
-				CB8E4DC72DE58C2F0025EA1F /* MusicUiTests.xctest */,
-				CB8E4DD12DE58C2F0025EA1F /* MusicUiUITests.xctest */,
+				CBF3B84B2DEDEB0800378D99 /* MusicSearch.app */,
+				CBF3B85B2DEDEB0900378D99 /* MusicSearchTests.xctest */,
+				CBF3B8652DEDEB0900378D99 /* MusicSearchUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -108,134 +95,134 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		CB8E4DB02DE58C2E0025EA1F /* MusicUi */ = {
+		CBF3B84A2DEDEB0800378D99 /* MusicSearch */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB8E4DDA2DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUi" */;
+			buildConfigurationList = CBF3B86F2DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearch" */;
 			buildPhases = (
-				CB8E4DAD2DE58C2E0025EA1F /* Sources */,
-				CB8E4DAE2DE58C2E0025EA1F /* Frameworks */,
-				CB8E4DAF2DE58C2E0025EA1F /* Resources */,
+				CBF3B8472DEDEB0800378D99 /* Sources */,
+				CBF3B8482DEDEB0800378D99 /* Frameworks */,
+				CBF3B8492DEDEB0800378D99 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
 			);
 			fileSystemSynchronizedGroups = (
-				CB8E4DB32DE58C2E0025EA1F /* MusicUi */,
+				CBF3B84D2DEDEB0800378D99 /* MusicSearch */,
 			);
-			name = MusicUi;
+			name = MusicSearch;
 			packageProductDependencies = (
 			);
-			productName = MusicUi;
-			productReference = CB8E4DB12DE58C2E0025EA1F /* MusicUi.app */;
+			productName = MusicSearch;
+			productReference = CBF3B84B2DEDEB0800378D99 /* MusicSearch.app */;
 			productType = "com.apple.product-type.application";
 		};
-		CB8E4DC62DE58C2F0025EA1F /* MusicUiTests */ = {
+		CBF3B85A2DEDEB0900378D99 /* MusicSearchTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB8E4DDF2DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUiTests" */;
+			buildConfigurationList = CBF3B8722DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearchTests" */;
 			buildPhases = (
-				CB8E4DC32DE58C2F0025EA1F /* Sources */,
-				CB8E4DC42DE58C2F0025EA1F /* Frameworks */,
-				CB8E4DC52DE58C2F0025EA1F /* Resources */,
+				CBF3B8572DEDEB0900378D99 /* Sources */,
+				CBF3B8582DEDEB0900378D99 /* Frameworks */,
+				CBF3B8592DEDEB0900378D99 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB8E4DC92DE58C2F0025EA1F /* PBXTargetDependency */,
+				CBF3B85D2DEDEB0900378D99 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CB8E4DCA2DE58C2F0025EA1F /* MusicUiTests */,
+				CBF3B85E2DEDEB0900378D99 /* MusicSearchTests */,
 			);
-			name = MusicUiTests;
+			name = MusicSearchTests;
 			packageProductDependencies = (
 			);
-			productName = MusicUiTests;
-			productReference = CB8E4DC72DE58C2F0025EA1F /* MusicUiTests.xctest */;
+			productName = MusicSearchTests;
+			productReference = CBF3B85B2DEDEB0900378D99 /* MusicSearchTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		CB8E4DD02DE58C2F0025EA1F /* MusicUiUITests */ = {
+		CBF3B8642DEDEB0900378D99 /* MusicSearchUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = CB8E4DE22DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUiUITests" */;
+			buildConfigurationList = CBF3B8752DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearchUITests" */;
 			buildPhases = (
-				CB8E4DCD2DE58C2F0025EA1F /* Sources */,
-				CB8E4DCE2DE58C2F0025EA1F /* Frameworks */,
-				CB8E4DCF2DE58C2F0025EA1F /* Resources */,
+				CBF3B8612DEDEB0900378D99 /* Sources */,
+				CBF3B8622DEDEB0900378D99 /* Frameworks */,
+				CBF3B8632DEDEB0900378D99 /* Resources */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				CB8E4DD32DE58C2F0025EA1F /* PBXTargetDependency */,
+				CBF3B8672DEDEB0900378D99 /* PBXTargetDependency */,
 			);
 			fileSystemSynchronizedGroups = (
-				CB8E4DD42DE58C2F0025EA1F /* MusicUiUITests */,
+				CBF3B8682DEDEB0900378D99 /* MusicSearchUITests */,
 			);
-			name = MusicUiUITests;
+			name = MusicSearchUITests;
 			packageProductDependencies = (
 			);
-			productName = MusicUiUITests;
-			productReference = CB8E4DD12DE58C2F0025EA1F /* MusicUiUITests.xctest */;
+			productName = MusicSearchUITests;
+			productReference = CBF3B8652DEDEB0900378D99 /* MusicSearchUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		CB8E4DA92DE58C2E0025EA1F /* Project object */ = {
+		CBF3B8432DEDEB0800378D99 /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
 				BuildIndependentTargetsInParallel = 1;
 				LastSwiftUpdateCheck = 1620;
 				LastUpgradeCheck = 1620;
 				TargetAttributes = {
-					CB8E4DB02DE58C2E0025EA1F = {
+					CBF3B84A2DEDEB0800378D99 = {
 						CreatedOnToolsVersion = 16.2;
 					};
-					CB8E4DC62DE58C2F0025EA1F = {
+					CBF3B85A2DEDEB0900378D99 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = CB8E4DB02DE58C2E0025EA1F;
+						TestTargetID = CBF3B84A2DEDEB0800378D99;
 					};
-					CB8E4DD02DE58C2F0025EA1F = {
+					CBF3B8642DEDEB0900378D99 = {
 						CreatedOnToolsVersion = 16.2;
-						TestTargetID = CB8E4DB02DE58C2E0025EA1F;
+						TestTargetID = CBF3B84A2DEDEB0800378D99;
 					};
 				};
 			};
-			buildConfigurationList = CB8E4DAC2DE58C2E0025EA1F /* Build configuration list for PBXProject "MusicUi" */;
+			buildConfigurationList = CBF3B8462DEDEB0800378D99 /* Build configuration list for PBXProject "MusicSearch" */;
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
 			knownRegions = (
 				en,
 				Base,
 			);
-			mainGroup = CB8E4DA82DE58C2E0025EA1F;
+			mainGroup = CBF3B8422DEDEB0800378D99;
 			minimizedProjectReferenceProxies = 1;
 			preferredProjectObjectVersion = 77;
-			productRefGroup = CB8E4DB22DE58C2E0025EA1F /* Products */;
+			productRefGroup = CBF3B84C2DEDEB0800378D99 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				CB8E4DB02DE58C2E0025EA1F /* MusicUi */,
-				CB8E4DC62DE58C2F0025EA1F /* MusicUiTests */,
-				CB8E4DD02DE58C2F0025EA1F /* MusicUiUITests */,
+				CBF3B84A2DEDEB0800378D99 /* MusicSearch */,
+				CBF3B85A2DEDEB0900378D99 /* MusicSearchTests */,
+				CBF3B8642DEDEB0900378D99 /* MusicSearchUITests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		CB8E4DAF2DE58C2E0025EA1F /* Resources */ = {
+		CBF3B8492DEDEB0800378D99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DC52DE58C2F0025EA1F /* Resources */ = {
+		CBF3B8592DEDEB0900378D99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DCF2DE58C2F0025EA1F /* Resources */ = {
+		CBF3B8632DEDEB0900378D99 /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -245,21 +232,21 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		CB8E4DAD2DE58C2E0025EA1F /* Sources */ = {
+		CBF3B8472DEDEB0800378D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DC32DE58C2F0025EA1F /* Sources */ = {
+		CBF3B8572DEDEB0900378D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		CB8E4DCD2DE58C2F0025EA1F /* Sources */ = {
+		CBF3B8612DEDEB0900378D99 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -269,74 +256,20 @@
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		CB8E4DC92DE58C2F0025EA1F /* PBXTargetDependency */ = {
+		CBF3B85D2DEDEB0900378D99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB8E4DB02DE58C2E0025EA1F /* MusicUi */;
-			targetProxy = CB8E4DC82DE58C2F0025EA1F /* PBXContainerItemProxy */;
+			target = CBF3B84A2DEDEB0800378D99 /* MusicSearch */;
+			targetProxy = CBF3B85C2DEDEB0900378D99 /* PBXContainerItemProxy */;
 		};
-		CB8E4DD32DE58C2F0025EA1F /* PBXTargetDependency */ = {
+		CBF3B8672DEDEB0900378D99 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = CB8E4DB02DE58C2E0025EA1F /* MusicUi */;
-			targetProxy = CB8E4DD22DE58C2F0025EA1F /* PBXContainerItemProxy */;
+			target = CBF3B84A2DEDEB0800378D99 /* MusicSearch */;
+			targetProxy = CBF3B8662DEDEB0900378D99 /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
 /* Begin XCBuildConfiguration section */
-		CB8E4DDB2DE58C2F0025EA1F /* Debug */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MusicUi/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Debug;
-		};
-		CB8E4DDC2DE58C2F0025EA1F /* Release */ = {
-			isa = XCBuildConfiguration;
-			buildSettings = {
-				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
-				CODE_SIGN_STYLE = Automatic;
-				CURRENT_PROJECT_VERSION = 1;
-				GENERATE_INFOPLIST_FILE = YES;
-				INFOPLIST_FILE = MusicUi/Info.plist;
-				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
-				INFOPLIST_KEY_UILaunchStoryboardName = LaunchScreen;
-				INFOPLIST_KEY_UIMainStoryboardFile = Main;
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
-				LD_RUNPATH_SEARCH_PATHS = (
-					"$(inherited)",
-					"@executable_path/Frameworks",
-				);
-				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUi;
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = YES;
-				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		CB8E4DDD2DE58C2F0025EA1F /* Debug */ = {
+		CBF3B86D2DEDEB0900378D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -399,7 +332,7 @@
 			};
 			name = Debug;
 		};
-		CB8E4DDE2DE58C2F0025EA1F /* Release */ = {
+		CBF3B86E2DEDEB0900378D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -455,114 +388,170 @@
 			};
 			name = Release;
 		};
-		CB8E4DE02DE58C2F0025EA1F /* Debug */ = {
+		CBF3B8702DEDEB0900378D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicSearch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicUi";
 			};
 			name = Debug;
 		};
-		CB8E4DE12DE58C2F0025EA1F /* Release */ = {
+		CBF3B8712DEDEB0900378D99 /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"MusicSearch/Preview Content\"";
+				ENABLE_PREVIEWS = YES;
 				GENERATE_INFOPLIST_FILE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUiTests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearch;
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicUi.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicUi";
 			};
 			name = Release;
 		};
-		CB8E4DE32DE58C2F0025EA1F /* Debug */ = {
+		CBF3B8732DEDEB0900378D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearchTests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicUi;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicSearch";
 			};
 			name = Debug;
 		};
-		CB8E4DE42DE58C2F0025EA1F /* Release */ = {
+		CBF3B8742DEDEB0900378D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearchTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/MusicSearch.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/MusicSearch";
+			};
+			name = Release;
+		};
+		CBF3B8762DEDEB0900378D99 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				CODE_SIGN_STYLE = Automatic;
 				CURRENT_PROJECT_VERSION = 1;
 				GENERATE_INFOPLIST_FILE = YES;
 				MARKETING_VERSION = 1.0;
-				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicUiUITests;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearchUITests;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_TARGET_NAME = MusicUi;
+				TEST_TARGET_NAME = MusicSearch;
+			};
+			name = Debug;
+		};
+		CBF3B8772DEDEB0900378D99 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.yeon.MusicSearchUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = MusicSearch;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		CB8E4DAC2DE58C2E0025EA1F /* Build configuration list for PBXProject "MusicUi" */ = {
+		CBF3B8462DEDEB0800378D99 /* Build configuration list for PBXProject "MusicSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8E4DDD2DE58C2F0025EA1F /* Debug */,
-				CB8E4DDE2DE58C2F0025EA1F /* Release */,
+				CBF3B86D2DEDEB0900378D99 /* Debug */,
+				CBF3B86E2DEDEB0900378D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB8E4DDA2DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUi" */ = {
+		CBF3B86F2DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearch" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8E4DDB2DE58C2F0025EA1F /* Debug */,
-				CB8E4DDC2DE58C2F0025EA1F /* Release */,
+				CBF3B8702DEDEB0900378D99 /* Debug */,
+				CBF3B8712DEDEB0900378D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB8E4DDF2DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUiTests" */ = {
+		CBF3B8722DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearchTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8E4DE02DE58C2F0025EA1F /* Debug */,
-				CB8E4DE12DE58C2F0025EA1F /* Release */,
+				CBF3B8732DEDEB0900378D99 /* Debug */,
+				CBF3B8742DEDEB0900378D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		CB8E4DE22DE58C2F0025EA1F /* Build configuration list for PBXNativeTarget "MusicUiUITests" */ = {
+		CBF3B8752DEDEB0900378D99 /* Build configuration list for PBXNativeTarget "MusicSearchUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				CB8E4DE32DE58C2F0025EA1F /* Debug */,
-				CB8E4DE42DE58C2F0025EA1F /* Release */,
+				CBF3B8762DEDEB0900378D99 /* Debug */,
+				CBF3B8772DEDEB0900378D99 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = CB8E4DA92DE58C2E0025EA1F /* Project object */;
+	rootObject = CBF3B8432DEDEB0800378D99 /* Project object */;
 }
